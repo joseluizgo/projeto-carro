@@ -60,7 +60,7 @@ a.btn {
 }
 
 main {
-
+    background-color: rgb(13, 13, 13);
 }
 
 main > div.main-home {
@@ -123,33 +123,55 @@ main > div.main-home > div.main-right {
 
 main > div.bnf-container {
     display: flex;
-    flex-direction: column;
-    padding-top: 20px;
+    margin: auto;
+    width: 400px;
+    flex-wrap: wrap;
+    padding: 20px;
     align-items: center;
+    justify-content: center;
     text-align: left;
-    gap: 10px;
+    gap: 15px;
     background-color: rgb(13, 13, 13);
 
     h2 {
-        justify-content: center;
         color: white;
         font-size: 2em;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.802);
-    }
-
-    section > span#icon-card {
-        background-color: rgb(66, 66, 66);
-        padding: 5px;
-        border-radius: 50%;
-        margin-bottom: 10px;
-        border: 2px solid white;
+        width: 100vw;
+        text-align: center;
     }
 
     section.card {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
         background-color: rgb(38, 38, 38);
         color: white;
-        width: 90vw;
+        width: 90px;
+        height: 90px;
         padding: 10px;
         border-radius: 10px;
+        border: 1px solid white;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.266);
+
+        span#icon-card {
+            background-color: rgb(66, 66, 66);
+            padding: 5px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 2px solid white;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.574);
+        }
+
+        h3 {
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        p {
+            display: none;
+        }
     }
 }
