@@ -53,11 +53,11 @@
 
                 p {
                     display: block;
-                    text-align: left;
+                    text-align: center;
                     margin: 30px;
                     font-size: 1.3em;
                     color: rgb(110, 110, 110);
-                    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.402);
+                    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.252);
                     line-height: 1.5em;
                     max-width: 500px;
                 }
