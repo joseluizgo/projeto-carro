@@ -39,6 +39,7 @@ div.logo {
 
 header ul {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     gap: 20px;
     align-items: center;
