@@ -91,9 +91,8 @@ main > div.main-home > div.main-left {
 
     ul {
         display: flex;
-        gap: 30px;
+        gap: 28px;
         justify-content: center;
-        margin-left: 30px;
         margin-top: 40px;
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.457);
         padding: 5px;
