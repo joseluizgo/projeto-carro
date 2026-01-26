@@ -91,6 +91,7 @@ main > div.main-home > div.main-left {
 
     ul {
         display: flex;
+        flex-wrap: wrap;
         gap: 28px;
         justify-content: center;
         margin-top: 40px;
