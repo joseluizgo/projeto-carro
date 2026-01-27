@@ -36,7 +36,6 @@
     justify-content: center;
     text-align: left;
     gap: 15px;
-    background-color: rgb(13, 13, 13);
 
     h2 {
         color: white;
@@ -126,7 +125,6 @@
         justify-content: center;
         text-align: left;
         gap: 15px;
-        background-color: rgb(13, 13, 13);
 
         h2 {
             color: white;
