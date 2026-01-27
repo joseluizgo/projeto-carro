@@ -17,6 +17,7 @@
 
     main > div.bnf-container {
     width: 700px;
+    height: 450px;
 
     section.card {
         justify-content: space-around;
@@ -74,6 +75,7 @@
 
     main > div.bnf-container {
         width: 1000px;
+        height: 600px;
 
         section.card {
             flex-flow: column wrap;
