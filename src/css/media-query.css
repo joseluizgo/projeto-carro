@@ -16,13 +16,14 @@
     }
 
     main > div.bnf-container {
-    width: 700px;
-    height: 450px;
+    width: 90vw;
+    height: 470px;
 
     section.card {
         justify-content: space-around;
+        flex: 1 1 auto;
         width: 201px;
-        height: 140px;
+        height: 180px;
         padding: 10px;
         
         h3 {
