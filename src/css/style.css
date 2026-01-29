@@ -31,6 +31,7 @@ body {
 header {
     background-color: rgb(35, 35, 35);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.256);
+    padding: 20px;
 }
 
 nav {
@@ -164,6 +165,7 @@ main > div.bnf-container {
     background-color: rgb(26, 26, 26);
 
     section.card {
+        margin-top: 20px;
         display: flex;
         flex-flow: column nowrap;
         flex: 1 1 auto;
