@@ -26,17 +26,30 @@
         height: 180px;
         padding: 10px;
         
-        h3 {
-            font-size: 1.1em;
-        }
+            h3 {
+                font-size: 1.1em;
+            }
 
-        p {
-            display: block;
-            font-size: 0.8em;
-            line-height: 1.5em;
+            p {
+                display: block;
+                font-size: 0.8em;
+                line-height: 1.5em;
+            }
         }
     }
-}
+
+    main > div.produtos {
+
+        section.card-market {
+        width: 300px;
+        height: 370px;
+        }
+
+        section > img {
+            width: 310px;
+            margin-top: -9px;
+        }
+    }
 }
 
 @media screen and (min-width: 1200px) {
