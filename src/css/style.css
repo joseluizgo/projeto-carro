@@ -31,12 +31,11 @@ body {
 header {
     background-color: rgb(35, 35, 35);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.256);
-    padding: 5px;
 }
 
 nav {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     gap: 15px;
     align-items: center;
