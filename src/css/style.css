@@ -195,7 +195,7 @@ main > div.bnf-container {
             padding: 3px;
             border-radius: 5px;
             margin-bottom: 10px;
-            transition: 0.2s;
+            transition: 0.1s;
         }
 
         h3 {
@@ -210,7 +210,7 @@ main > div.bnf-container {
     section.card:hover {          
         span#icon-card {
             color: rgb(38, 38, 38);
-            background-color: rgb(70, 70, 253);
+            background-color: rgb(170, 0, 0);
         }
     }
 }
@@ -218,10 +218,11 @@ main > div.bnf-container {
 main > div.produtos {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     background-color: rgb(22, 22, 22);
     margin-top: 50px;
+    width: 97vw;
 
     section.card-market {
         display: flex;
