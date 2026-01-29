@@ -25,6 +25,7 @@ body {
     background-color: rgb(35, 35, 35);
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -154,7 +155,6 @@ main > div.main-home > div.main-right {
 main > div.bnf-container {
     display: flex;
     margin: auto;
-    width: 89vw;
     height: 350px;
     flex-wrap: wrap;
     padding: 20px;
@@ -168,8 +168,8 @@ main > div.bnf-container {
         color: white;
         font-size: 2em;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.802);
-        width: 100vw;
         text-align: center;
+        width: 95vw;
     }
 
     section.card {
@@ -222,7 +222,6 @@ main > div.produtos {
     gap: 20px;
     background-color: rgb(22, 22, 22);
     margin-top: 50px;
-    width: 97vw;
 
     section.card-market {
         display: flex;
