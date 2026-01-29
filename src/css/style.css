@@ -31,7 +31,7 @@ body {
 header {
     background-color: rgb(35, 35, 35);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.256);
-    padding: 20px;
+    padding: 5px;
 }
 
 nav {
@@ -155,7 +155,7 @@ main > div.main-home > div.main-right {
 main > div.bnf-container {
     display: flex;
     margin: auto;
-    height: 350px;
+    height: 100%;
     flex-wrap: wrap;
     padding: 5px;
     align-items: center;
