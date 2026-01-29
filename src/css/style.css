@@ -25,6 +25,7 @@ body {
     background-color: rgb(35, 35, 35);
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    width: 97vw;
 }
 
 header {
@@ -228,7 +229,7 @@ main > div.produtos {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        width: 200px;
+        width: 210px;
         height: 280px;
         gap: 20px;
         padding: 5px;
@@ -245,7 +246,7 @@ main > div.produtos {
     }
 
     section > img {
-        width: 210px;
+        width: 220px;
         margin: -5px;
         background-color: white;
         border-radius: 15px 15px 0px 0px;
