@@ -138,7 +138,7 @@ main > div.main-home > div.main-right {
 main > div.bnf-container {
     display: flex;
     margin: auto;
-    width: 400px;
+    width: 89vw;
     height: 350px;
     flex-wrap: wrap;
     padding: 20px;
@@ -178,7 +178,7 @@ main > div.bnf-container {
             padding: 5px;
             border-radius: 5px;
             margin-bottom: 10px;
-            transition: 0.5s;
+            transition: 0.2s;
         }
 
         h3 {
