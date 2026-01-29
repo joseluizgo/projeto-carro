@@ -25,6 +25,7 @@ body {
     background-color: rgb(35, 35, 35);
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    width: 100%;
 }
 
 header {
@@ -36,7 +37,6 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding: 15px;
     gap: 15px;
     align-items: center;
 }
@@ -114,7 +114,7 @@ main > div.main-home > div.main-left {
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.579);
         line-height: 1em;
         text-align: center;
-        width: 400px;
+        width: 280px;
     }
 
     strong {
@@ -156,7 +156,7 @@ main > div.bnf-container {
     margin: auto;
     height: 350px;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5px;
     align-items: center;
     justify-content: center;
     text-align: left;
